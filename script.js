@@ -21,7 +21,7 @@ function calc(){
      else if (duracaoValue >= 6){
         let adultosCarne = adultosValue * 650
         let criancasCarne = criancaValue * 325
-        let adultosCerv = adultosValue * 2000
+        let adultosCerv = adultosValue * 1800
         let adultosRefri = adultosValue * 1500
         let criancasRefri = criancaValue * 750
         let refriTotal = adultosRefri + criancasRefri
@@ -36,7 +36,7 @@ function calc(){
     } else {
         let adultosCarne = adultosValue * 400
         let criancasCarne = criancaValue * 200
-        let adultosCerv = adultosValue * 1200
+        let adultosCerv = adultosValue * 1300
         let adultosRefri = adultosValue * 1000
         let criancasRefri = criancaValue * 500
         let refriTotal = adultosRefri + criancasRefri
